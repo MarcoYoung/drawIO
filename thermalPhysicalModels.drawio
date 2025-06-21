@@ -423,8 +423,26 @@
         <mxCell id="Ad4euv2WYEe-DqxHXYJi-7" value="&lt;div&gt;polynomial&lt;/div&gt;&lt;div&gt;WLF&lt;/div&gt;&lt;div&gt;sutherland&lt;/div&gt;&lt;div&gt;const&lt;/div&gt;&lt;div&gt;logPolynomial&lt;/div&gt;&lt;div&gt;icoTabulated&lt;/div&gt;&lt;div&gt;tabulated&lt;/div&gt;&lt;div&gt;Andrade&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="140" width="120" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="Ad4euv2WYEe-DqxHXYJi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ad4euv2WYEe-DqxHXYJi-10" target="Ad4euv2WYEe-DqxHXYJi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ad4euv2WYEe-DqxHXYJi-10" value="&lt;div&gt;janaf&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;eConst&lt;/span&gt;&lt;/div&gt;&lt;div&gt;hIcoTabulated&lt;/div&gt;&lt;div&gt;hPower&lt;/div&gt;&lt;div&gt;eIcoTabulated&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hTabulated&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hPolynomial&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ePower&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hConst&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ePolynomial&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;eTabulated&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="120" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad4euv2WYEe-DqxHXYJi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ad4euv2WYEe-DqxHXYJi-12" target="Ad4euv2WYEe-DqxHXYJi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad4euv2WYEe-DqxHXYJi-12" value="&lt;div&gt;linear&lt;/div&gt;&lt;div&gt;rhoConst&lt;/div&gt;&lt;div&gt;rPolynomial&lt;/div&gt;&lt;div&gt;icoPolynomial&lt;/div&gt;&lt;div&gt;perfectGas&lt;/div&gt;&lt;div&gt;icoTabulated&lt;/div&gt;&lt;div&gt;incompressiblePerfectGas&lt;/div&gt;&lt;div&gt;rhoTabulated&lt;/div&gt;&lt;div&gt;adiabaticPerfectFluid&lt;/div&gt;&lt;div&gt;perfectFluid&lt;/div&gt;&lt;div&gt;Boussinesq&lt;/div&gt;&lt;div&gt;PengRobinsonGas&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="115" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad4euv2WYEe-DqxHXYJi-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ad4euv2WYEe-DqxHXYJi-14" target="Ad4euv2WYEe-DqxHXYJi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad4euv2WYEe-DqxHXYJi-14" value="specie" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="197.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Ad4euv2WYEe-DqxHXYJi-16" value="&lt;div&gt;absoluteInternalEnergy&lt;/div&gt;&lt;div&gt;absoluteEnthalpy&lt;/div&gt;&lt;div&gt;sensibleInternalEnergy&lt;/div&gt;&lt;div&gt;sensibleEnthalpy&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="177.5" width="140" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
