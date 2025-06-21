@@ -8,7 +8,7 @@
           <mxGeometry x="120" y="40" width="1510" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-1" value="[abstract] class basicThermo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="172" width="307" height="100" as="geometry">
+          <mxGeometry x="470" y="160" width="307" height="100" as="geometry">
             <mxRectangle x="797" y="150" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -18,11 +18,11 @@
         <mxCell id="pPJwcBT-VZS1vUnsElvL-18" value="+ template&amp;lt;class Thermo&amp;gt; static New(fvMesh&amp;amp;, word&amp;amp;): autoPtr&amp;lt;Thermo&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-1">
           <mxGeometry y="52" width="307" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-8" target="pPJwcBT-VZS1vUnsElvL-15">
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-8" target="pPJwcBT-VZS1vUnsElvL-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-8" value="class basic::Thermoimplementation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="172" width="220" height="164" as="geometry">
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-8" value="class basicThermo::implementation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="220" height="164" as="geometry">
             <mxRectangle x="797" y="150" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -44,17 +44,8 @@
         <mxCell id="pPJwcBT-VZS1vUnsElvL-17" value="+ phaseName(): word" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-8">
           <mxGeometry y="138" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-8" target="pPJwcBT-VZS1vUnsElvL-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1010" y="185" as="sourcePoint" />
-            <mxPoint x="930" y="210" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1030" y="185" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-15" value="&lt;b&gt;[abstract] class physicalProperties&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="112" width="220" height="30" as="geometry" />
+          <mxGeometry x="513.5" y="290" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-19" target="pPJwcBT-VZS1vUnsElvL-23">
           <mxGeometry relative="1" as="geometry" />
@@ -65,7 +56,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-19" value="&lt;div&gt;template&amp;lt;class BasicRhoThermo, class MixtureType&amp;gt;&lt;/div&gt;&lt;div&gt;class heRhoThermo&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="830" width="340" height="100" as="geometry" />
+          <mxGeometry x="230" y="940" width="340" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-20" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-19">
           <mxGeometry y="40" width="340" height="26" as="geometry" />
@@ -93,7 +84,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-23" value="&lt;div&gt;template&amp;lt;class BasicThermo, class MixtureType&amp;gt;&lt;/div&gt;&lt;div&gt;class heThermo&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="630" width="320" height="100" as="geometry" />
+          <mxGeometry x="240" y="740" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-24" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-23">
           <mxGeometry y="40" width="320" height="26" as="geometry" />
@@ -105,7 +96,7 @@
           <mxGeometry y="74" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-29" value="&lt;div&gt;template&amp;lt;class BasicThermo, class MixtureType&amp;gt;&lt;/div&gt;&lt;div&gt;class heThermo&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="460" width="320" height="100" as="geometry" />
+          <mxGeometry x="480" y="570" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-30" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-29">
           <mxGeometry y="40" width="320" height="26" as="geometry" />
@@ -116,14 +107,16 @@
         <mxCell id="pPJwcBT-VZS1vUnsElvL-32" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-29">
           <mxGeometry y="74" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-35" target="pPJwcBT-VZS1vUnsElvL-46">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-35" target="pPJwcBT-VZS1vUnsElvL-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="499.9999999999998" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-35" target="pPJwcBT-VZS1vUnsElvL-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-35" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;class rhoThermo::composite&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="470" width="320" height="90" as="geometry" />
+          <mxGeometry x="50" y="580" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-36" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-35">
           <mxGeometry y="30" width="320" height="26" as="geometry" />
@@ -134,20 +127,8 @@
         <mxCell id="pPJwcBT-VZS1vUnsElvL-38" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-35">
           <mxGeometry y="64" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-46" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;class basicThermo::implementation&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="300" width="250" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-47" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-46">
-          <mxGeometry y="30" width="250" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-46">
-          <mxGeometry y="56" width="250" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-49" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-46">
-          <mxGeometry y="64" width="250" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-57" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;class fluidThermo::implementation&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="300" width="240" height="90" as="geometry" />
+          <mxGeometry x="370" y="410" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-58" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-57">
           <mxGeometry y="30" width="240" height="26" as="geometry" />
@@ -162,15 +143,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-61" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;class rhoThermo::implementation&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="260" width="250" height="142" as="geometry" />
+          <mxGeometry x="-200" y="370" width="250" height="142" as="geometry" />
         </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-73" value="# rho_: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-61">
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-73" value="# rho_: volScalarField" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-61">
           <mxGeometry y="30" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-74" value="# psi_: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-61">
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-74" value="# psi_: volScalarField" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-61">
           <mxGeometry y="56" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pPJwcBT-VZS1vUnsElvL-62" value="# mu_: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-61">
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-62" value="# mu_: volScalarField" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-61">
           <mxGeometry y="82" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-61">
@@ -179,8 +160,22 @@
         <mxCell id="pPJwcBT-VZS1vUnsElvL-64" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-61">
           <mxGeometry y="116" width="250" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-66" target="pPJwcBT-VZS1vUnsElvL-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-75" y="110" />
+              <mxPoint x="1150" y="110" />
+              <mxPoint x="1150" y="432" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-91" value="virtual" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPJwcBT-VZS1vUnsElvL-90">
+          <mxGeometry x="-0.1846" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-66" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;class rhoThermo&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="90" width="190" height="142" as="geometry" />
+          <mxGeometry x="-170" y="200" width="190" height="142" as="geometry" />
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-67" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-66">
           <mxGeometry y="30" width="190" height="26" as="geometry" />
@@ -196,6 +191,48 @@
         </mxCell>
         <mxCell id="pPJwcBT-VZS1vUnsElvL-72" value="+ psi(): volScalarField" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-66">
           <mxGeometry y="116" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-8" target="pPJwcBT-VZS1vUnsElvL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-76" value="virtual" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPJwcBT-VZS1vUnsElvL-75">
+          <mxGeometry x="0.0825" y="-5" relative="1" as="geometry">
+            <mxPoint x="1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-77" target="pPJwcBT-VZS1vUnsElvL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-84" value="virtual" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPJwcBT-VZS1vUnsElvL-83">
+          <mxGeometry x="-0.2315" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-77" target="pPJwcBT-VZS1vUnsElvL-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-77" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;class fluidThermo&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="410" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-78" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-77">
+          <mxGeometry y="30" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-79" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-77">
+          <mxGeometry y="56" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-80" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pPJwcBT-VZS1vUnsElvL-77">
+          <mxGeometry y="64" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPJwcBT-VZS1vUnsElvL-58" target="pPJwcBT-VZS1vUnsElvL-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-82" value="virtual" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPJwcBT-VZS1vUnsElvL-81">
+          <mxGeometry x="0.1606" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPJwcBT-VZS1vUnsElvL-86" value="&lt;b&gt;class viscosity&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="910" y="340" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
